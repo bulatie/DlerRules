@@ -14,6 +14,11 @@
 - RULE-SET,Youku,Asian TV
 - RULE-SET,WeTV,Asian TV
 
+- RULE-SET,Amazon,Global TV
+- RULE-SET,Japonx,Global TV
+- RULE-SET,Pornhub,Global TV
+- RULE-SET,Soundcloud,Global TV
+
 - RULE-SET,Apple,Apple
 - RULE-SET,Google FCM,Google FCM
 - RULE-SET,Scholar,Scholar
@@ -103,6 +108,30 @@ rule-providers:
     behavior: classical
     url: 'https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/WeTV.yaml'
     path: ./Rules/Media/WeTV
+    interval: 86400
+  Amazon:
+    type: http
+    behavior: classical
+    url: 'https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/Amazon.yaml'
+    path: ./Rules/Media/Amazon
+    interval: 86400
+  Japonx:
+    type: http
+    behavior: classical
+    url: 'https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/Japonx.yaml'
+    path: ./Rules/Media/Japonx
+    interval: 86400
+  Pornhub:
+    type: http
+    behavior: classical
+    url: 'https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/Pornhub.yaml'
+    path: ./Rules/Media/Pornhub
+    interval: 86400
+  Soundcloud:
+    type: http
+    behavior: classical
+    url: 'https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/Media/Soundcloud.yaml'
+    path: ./Rules/Media/Soundcloud
     interval: 86400
   Telegram:
     type: http
