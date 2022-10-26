@@ -19,6 +19,14 @@
 - RULE-SET,Pornhub,Global TV
 - RULE-SET,Soundcloud,Global TV
 
+- RULE-SET,Telegram,Telegram
+- RULE-SET,Crypto,Crypto
+- RULE-SET,Discord,Discord
+- RULE-SET,Steam,Steam
+- RULE-SET,Speedtest,Speedtest
+- RULE-SET,PayPal,PayPal
+- RULE-SET,Microsoft,Microsoft
+
 - RULE-SET,Apple,Apple
 - RULE-SET,Google FCM,Google FCM
 - RULE-SET,Scholar,Scholar
